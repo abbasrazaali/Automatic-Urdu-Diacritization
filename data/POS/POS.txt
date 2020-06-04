@@ -1,0 +1,8 @@
+SM
+PRN
+NN
+ADV
+HRF
+VB
+ADJ
+U
