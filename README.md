@@ -1,2 +1,6 @@
-# Automatic-Urdu-Diacritization
-Statistical Urdu Diacritization System
+# Automatic Diacritization for Urdu
+
+The Urdu language is written in Arabic script. In this script, the consonantal context is clearly represented, but the vocalic sounds are represented (mostly) by marks or diacritics, which are optional and normally not written. Readers can guess the diacritics and thus can pronounce words correctly, based on their knowledge of the language. But un-diacritized Urdu text creates ambiguity for novice learners and computational systems that require pronunciation. In this paper, a statistical approach is used to mark diacritics for Urdu automatically. The use of multiple knowledge sources is also integrated with the statistical techniques to investigate their effects on the process. These knowledge sources include stemming, part-of-speech tagging, pronunciation lexicons, and word bigrams. The experimental results show that the letter-level trigram model performs best and achieves 95.37% overall accuracy by applying all knowledge sources.
+
+This system is an implementation of 
+<a href="http://www.cle.org.pk/clt10/papers/Automatic\%20Diacritization\%20for\%20Urdu.pdf">Ali, A. R, and Hussain, S. In Proceedings of the Conference on Language and Technology (CLT), pages 105-111, Sep 2010. </a>
